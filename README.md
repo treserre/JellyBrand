@@ -23,10 +23,14 @@ Inside /brands/ create a txt file with your brands or keywords to monitor, there
 
 **Dependencies**
 
-pip install pythonwhois-alt 
+pip install pythonwhois-alt
+
 pip install pyfiglet
+
 pip install jellyfish
+
 pip install zipfile
+
 pip install tabulate
 
 
