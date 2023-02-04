@@ -1,6 +1,6 @@
 # JellyBrand
 Tool to detect typosquatted / similar domains given a brand list on daily registered domains.
-Work in progress.
+Work in progress, this was my first personal python project, so expect sloppy code.
 
 
 **Feed**
