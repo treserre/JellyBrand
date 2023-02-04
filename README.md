@@ -3,6 +3,7 @@ Tool to detect typosquatted / similar domains given a brand list on daily regist
 Work in progress.
 
 **Feed**
+
 The domain list is downloaded from the free newly registered domains from whoisds.com.
 whoisds.com states that their newly registered domains can be freely used.
 Consider that domains are ALWAYS 2 days old.
@@ -12,11 +13,11 @@ Once the domain list is downloaded, is stored on the /feed/ directory, so it doe
 
 **Dependencies**
 
-# pip install pythonwhois-alt 
-# pip install pyfiglet
-# pip install jellyfish
-# pip install zipfile
-# pip install tabulate
+pip install pythonwhois-alt 
+pip install pyfiglet
+pip install jellyfish
+pip install zipfile
+pip install tabulate
 
 
 **Distance calculation**
