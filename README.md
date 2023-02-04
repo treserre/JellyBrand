@@ -33,6 +33,8 @@ pip install zipfile
 
 pip install tabulate
 
+Virustotal API key
+
 
 **Distance calculation**
 
