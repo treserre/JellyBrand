@@ -2,6 +2,7 @@
 Tool to detect typosquatted / similar domains given a brand list on daily registered domains.
 Work in progress.
 
+
 **Feed**
 
 The domain list is downloaded from the free newly registered domains from whoisds.com.
@@ -9,6 +10,14 @@ whoisds.com states that their newly registered domains can be freely used.
 Consider that domains are ALWAYS 2 days old.
 The script crafts the date to base64 and adds it to the URLpath to download the specific file on that date, only last 4 days available.
 Once the domain list is downloaded, is stored on the /feed/ directory, so it does not need to be downloaded very single time.
+
+**Before your use**
+
+Create 2 folders in the same directory of the main jellybrand script
+/brands/
+/feed/
+
+Inside /brands/ create a txt file with your brands or keywords to monitor, there is no need to add your brands' top-level domains.
 
 
 **Dependencies**
