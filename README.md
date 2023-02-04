@@ -13,8 +13,9 @@ Once the domain list is downloaded, is stored on the /feed/ directory, so it doe
 
 **Before your use**
 
-Create 2 folders in the same directory of the main jellybrand script
+Create 2 folders in the same directory of the main jellybrand script:
 /brands/
+
 /feed/
 
 Inside /brands/ create a txt file with your brands or keywords to monitor, there is no need to add your brands' top-level domains.
