@@ -14,6 +14,7 @@ Once the domain list is downloaded, is stored on the /feed/ directory, so it doe
 **Before your use**
 
 Create 2 folders in the same directory of the main jellybrand script:
+
 /brands/
 
 /feed/
@@ -49,3 +50,21 @@ Decrease both levensthein algorithms if you are seeing too many results.
 Increase the jaro winkler float number if you are seeing too many results.
 
 The name of the brands are also looked for in their entierity on each string.
+
+
+# POC
+Given a brand to be monitored named "cyberpunk" and checking it against newly registered domains on "January 1st 2077":
+
+![image](https://user-images.githubusercontent.com/124435877/216766071-7b543c0c-e9f7-4dae-8de1-89e9014a0089.png)
+
+
+
+## ROADMAP
+* Adding or removing brands should overwrite the brands.txt file
+* Monitoring list compares and alerts when changes are detected on the site.
+* Response status
+* MX records and alert if changes in comparison to last time checked.
+* Monitoring list to be saved in a file, preferrably json format
+
+![image](https://user-images.githubusercontent.com/124435877/216766239-e46144e1-60f1-4ec8-a46f-8ed80735a9ca.png)
+
